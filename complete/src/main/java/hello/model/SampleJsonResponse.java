@@ -1,0 +1,96 @@
+package hello.model;
+
+public class SampleJsonResponse {
+    /*
+    final String response1 = "{" +
+            "\"outputData\": {" +
+            "\"accNbr\": \"8985434342\"," +
+            "\"ruId\": \"\"," +
+            "\"cstNbr\": \"2312344\"," +
+            "\"passengerItinerary\": [{" +
+            "\"pnrLoc\": \"A79ZTJ\"," +
+            "\"pnrCrtnDt\": \"2018-05-30 04:31:59\"," +
+            "\"tattooNbr\": \"129497751\"," +
+            "\"segTattooNbr\": \"182642176\"," +
+            "\"fltNbr\": \"TR1\"," +
+            "\"depDt\": \"2018-05-30 04:31:59\"," +
+            "\"bdPt\": \"SIN\"," +
+            "\"offPnt\": \"CTS\"," +
+            "\"cbCls\": \"Y\"," +
+            "\"passengerSSR\": [{" +
+            "\"ssrTp\": \"CHML\"," +
+            "\"ssrSt\": \"HK\"," +
+            "\"ssrFreeTxt\": \"\"," +
+            "\"ssrDescription\": \"Cheese Hotdog + Ribena + Synder's ($10)\"," +
+            "\"srcStmId\": \"43\"," +
+            "\"otTattoNbr\": \"1\"," +
+            "\"legNo\": \"1\"," +
+            "\"legBdPnt\": \"SIN\"," +
+            "\"legOffPnt\": \"TPE\"," +
+            "\"ssrNumber\": \"1\"," +
+            "\"ssrCode\": \"3\" " +
+            "}," +
+            "{" +
+            "\"ssrTp\": \"CHML\"," +
+            "\"ssrSt\": \"HK\"," +
+            "\"ssrFreeTxt\": \"\"," +
+            "\"ssrDescription\": \"Cheese Hotdog + Ribena + Synder's ($10)\"," +
+            "\"srcStmId\": \"43\"," +
+            "\"otTattoNbr\": \"1\"," +
+            "\"legNo\": \"2\"," +
+            "\"legBdPnt\": \"TPE\"," +
+            "\"legOffPnt\": \"CTS\"," +
+            "\"ssrNumber\": \"1\"," +
+            "\"ssrCode\": \"3\"" +
+            "}" +
+            "]" +
+            "}," +
+            "{" +
+            "\"pnrLoc\": \"2225MF\"," +
+            "\"pnrCrtnDt\": \"2015-09-14 06:58:00\"," +
+            "\"tattooNbr\": \"1\"," +
+            "\"segTattooNbr\": \"5\"," +
+            "\"fltNbr\": \"SQ212\"," +
+            "\"depDt\": \"2015-09-14 06:58:00\"," +
+            "\"bdPt\": \"SIN\"," +
+            "\"offPnt\": \"SFO\"," +
+            "\"cbCls\": \"J\"," +
+            "\"passengerSSR\": [{" +
+            "\"ssrTp\": \"SPML\"," +
+            "\"ssrSt\": \"HK\"," +
+            "\"ssrFreeTxt\": \"SQML/BREK/SIN/WARM WAFFLE WITH STRAWBERRY COULIS\"," +
+            "\"ssrDescription\": \"\"," +
+            "\"srcStmId\": \"12\"," +
+            "\"otTattoNbr\": \"236\"," +
+            "\"legNo\": \"0\"," +
+            "\"legBdPnt\": \"\"," +
+            "\"legOffPnt\": \"\"," +
+            "\"ssrNumber\": \"\"," +
+            "\"ssrCode\": \"\"" +
+            "}," +
+            "{" +
+            "\"ssrTp\": \"SPML\"," +
+            "\"ssrSt\": \"HK\"," +
+            "\"ssrFreeTxt\": \"SQML/SUPR/SIN/CLASSIC LOBSTER THERMIDOR\"," +
+            "\"ssrDescription\": \"\"," +
+            "\"srcStmId\": \"12\"," +
+            "\"otTattoNbr\": \"235\"," +
+            "\"legNo\": \"0\"," +
+            "\"legBdPnt\": \"\"," +
+            "\"legOffPnt\": \"\"," +
+            "\"ssrNumber\": \"\"," +
+            "\"ssrCode\": \"\"" +
+            "}" +
+            "]" +
+            "}" +
+            "]" +
+            "}" +
+            "}" +
+            "}";
+    */
+
+    public static final String response2 = "{\"outputData\": {\"accNbr\": \"8985434342\", \"ruId\": \"\", \"cstNbr\": \"2312344\", \"passengerItinerary\": [{\"pnrLoc\": \"A79ZTJ\", \"pnrCrtnDt\": \"2018-05-30 04:31:59\", \"tattooNbr\": \"129497751\", \"segTattooNbr\": \"182642176\", \"fltNbr\": \"TR1\", \"depDt\": \"2018-05-30 04:31:59\", \"bdPt\": \"SIN\", \"offPnt\": \"CTS\", \"cbCls\": \"Y\", \"passengerSSR\": [{\"ssrTp\": \"CHML\", \"ssrSt\": \"HK\", \"ssrFreeTxt\": \"\", \"ssrDescription\": \"Cheese Hotdog + Ribena + Synder's ($10)\", \"srcStmId\": \"43\", \"otTattoNbr\": \"1\", \"legNo\": \"1\", \"legBdPnt\": \"SIN\", \"legOffPnt\": \"TPE\", \"ssrNumber\": \"1\", \"ssrCode\": \"3\"}, {\"ssrTp\": \"CHML\", \"ssrSt\": \"HK\", \"ssrFreeTxt\": \"\", \"ssrDescription\": \"Cheese Hotdog + Ribena + Synder's ($10)\", \"srcStmId\": \"43\", \"otTattoNbr\": \"1\", \"legNo\": \"2\", \"legBdPnt\": \"TPE\", \"legOffPnt\": \"CTS\", \"ssrNumber\": \"1\", \"ssrCode\": \"3\"}]" +
+                              "},{\"pnrLoc\": \"2225MF\", \"pnrCrtnDt\": \"2015-09-14 06:58:00\", \"tattooNbr\": \"1\", \"segTattooNbr\": \"5\", \"fltNbr\": \"SQ212\", \"depDt\": \"2015-09-14 06:58:00\", \"bdPt\": \"SIN\", \"offPnt\": \"SFO\", \"cbCls\": \"J\", \"passengerSSR\": [{\"ssrTp\": \"SPML\", \"ssrSt\": \"HK\", \"ssrFreeTxt\": \"SQML/BREK/SIN/WARM WAFFLE WITH STRAWBERRY COULIS\", \"ssrDescription\": \"\", \"srcStmId\": \"12\", \"otTattoNbr\": \"236\", \"legNo\": \"0\", \"legBdPnt\": \"\", \"legOffPnt\": \"\", \"ssrNumber\": \"\", \"ssrCode\": \"\"}," +
+                              "{\"ssrTp\": \"SPML\", \"ssrSt\": \"HK\", \"ssrFreeTxt\": \"SQML/SUPR/SIN/CLASSIC LOBSTER THERMIDOR\", \"ssrDescription\": \"\", \"srcStmId\": \"12\", \"otTattoNbr\": \"235\", \"legNo\": \"0\", \"legBdPnt\": \"\", \"legOffPnt\": \"\", \"ssrNumber\": \"\", \"ssrCode\": \"\"}]}]}}";
+    //System.out.println("SampleJsonResponse.main => " + response2);
+}
